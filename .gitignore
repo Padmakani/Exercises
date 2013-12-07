@@ -42,4 +42,14 @@ git remote add origin [user@]server:repos/are/here/project.git
 git remote add origin [user@]server:repos/are/here/project.git
 git push -u origin master
 $ apt-get install git
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	fetch = +refs/*:refs/*
+	mirror = true
+	url = git://gitolite.kernel.org/pub/scm/editors/uemacs/uemacs.git
+[gitweb]
+	owner = Linus Torvalds
 
