@@ -1,6 +1,5 @@
 *.py[cod]
-cd/
-cd var/www/python
+$ cd /usr/ports/devel/git
 
 
 # C extensions
