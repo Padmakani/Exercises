@@ -1,4 +1,7 @@
 *.py[cod]
+cd/
+cd var/www/python
+
 
 # C extensions
 *.so
