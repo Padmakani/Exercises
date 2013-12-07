@@ -34,3 +34,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+cd projects/are/here/project
+
+git remote add origin [user@]server:repos/are/here/project.git
+git remote add origin [user@]server:repos/are/here/project.git
+git push -u origin master
+
