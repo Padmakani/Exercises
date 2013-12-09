@@ -1,6 +1,4 @@
 *.py[cod]
-$ cd /usr/ports/devel/git
-
 
 # C extensions
 *.so
@@ -36,20 +34,3 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
-cd projects/are/here/project
-
-git remote add origin [user@]server:repos/are/here/project.git
-git remote add origin [user@]server:repos/are/here/project.git
-git push -u origin master
-$ apt-get install git
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = true
-[remote "origin"]
-	fetch = +refs/*:refs/*
-	mirror = true
-	url = git://gitolite.kernel.org/pub/scm/editors/uemacs/uemacs.git
-[gitweb]
-	owner = Linus Torvalds
-
